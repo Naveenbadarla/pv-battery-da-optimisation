@@ -388,7 +388,7 @@ with tab_logic:
 
     st.markdown(
         """
-Extra value = shifted_energy '×' (optimised_spread − nonoptimised_spread)
+Extra value = shifted_energy '×' (optimised_spread '−' nonoptimised_spread)
     st.subheader("Graphical energy flow (conceptual)")
     st.graphviz_chart(
         """
