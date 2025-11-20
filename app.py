@@ -411,8 +411,8 @@ with tab_read:
     st.markdown(
         """
 Net cost = (grid cost) '−' (EEG revenue)
-Savings_from_battery = net_cost(no_batt) − net_cost(battery_simple)
-Extra_from_optimisation = net_cost(battery_simple) − net_cost(battery_optimised)
+Savings_from_battery = net_cost(no_batt) '−' net_cost(battery_simple)
+Extra_from_optimisation = net_cost(battery_simple) '−' net_cost(battery_optimised)
   st.markdown(
       """
     if batt_capacity <= 0:
